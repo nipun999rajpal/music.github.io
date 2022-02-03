@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Varela+Round&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body  {
+    background-color: antiquewhite;
+    margin: 0;
+    
+}
+
+nav  {
+    font-family: 'Raleway', 'Varela Round', sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+
+}
+
+.brand img {
+    width: 30px;
+    padding: 0px 8px;
+    fill: white;
+}
+
+
+.brand  {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+nav ul li  {
+    padding: 0px 12px;
+}
+
+.bottom  {
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+}
+
+.icons  {
+    margin-top: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.container  {
+    /* background-color: black; */
+    color: white;
+    min-height: 70vh;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url(benni-talent-oc6fccnUVnA-unsplash.jpg);
+    background-size: cover;
+    /* background: linear-gradient(to right, rgb(229, 42, 70), rgb(69, 58, 223)); */
+}
+
+#myprogressbar  {
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+    height: 16px;
+    /* width: 442px; */
+}
+
+.songitem  {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 150%;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.songitem img  {
+    margin: 0px 23px;
+    width: 40px;
+    border-radius: 25px;
+}
+
+.timestamp  {
+    margin: 0 23px;
+}
+
+.timestamp i  {
+    cursor: pointer;
+}
+
+.songinfo {
+    position: absolute;
+    left: 10vh;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songinfo img  {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        color: white;
+        list-style-type: none;
+        height: 50px;
+        background-color: black;
+        width: auto;
+    
+    }
+    
+
+    .brand img {
+        width: 22px;
+        padding: 0px 8px;
+        color: white;
+    }
+    
+    
+    .brand  {
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 1rem;
+        flex-wrap: wrap;
+    
+    }
+    
+
+    .songitem  {
+        height: 50px;
+        display: flex;
+        background-color: white;
+        color: black;
+        width: auto;
+        margin: 12px 0px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+    }
+    
+    .songitem img  {
+        margin: 0px 23px;
+        width: 40px;
+        border-radius: 25px;
+    }
+
+
+    .container  {
+        /* background-color: black; */
+        color: white;
+        min-height: auto;
+        font-family: 'Varela Round', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 23px auto;
+        width: auto;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 90px;
+        background-image: url(benni-talent-oc6fccnUVnA-unsplash.jpg);
+    }
+
+
+    .songinfo img  {
+        opacity: 0;
+        transition: opacity 0.4s ease-in;
+        position: absolute;
+        left: -50px;
+        margin-top: 20px;
+    }
+
+    #mastersongname  {
+        margin-top: 20px;
+        position: absolute;
+    }
+
+    .icons  {
+        margin-top: 15px;
+        position: relative;
+        left: 80px;
+    }
+    
+    .icons i {
+        cursor: pointer;
+    }
+
+
+    #myprogressbar  {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    height: 16px;
+    /* width: 442px; */
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .bottom  {
+        position: sticky;
+        height: 80px;
+        background-color: black;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        flex-direction: column;
+        
+    }
+}
